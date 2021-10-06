@@ -1,0 +1,648 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #000;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+a{
+	color: #000;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+	color: #000;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1200px;
+}
+.flex-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+::placeholder {
+  color: #9B9B9B;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #9B9B9B;
+}
+
+::-ms-input-placeholder {
+  color: #9B9B9B;
+}
+
+#main { 
+	
+	background: url(../images/header-background.jpg);
+	background-repeat: no-repeat;
+    background-position: top 24% right 46%;
+    background-size: 100%;
+
+}
+
+#main header { 
+   
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 50px;
+   
+
+}
+
+#main header div.left { 
+	margin-left: 100px;
+	
+	
+
+}
+
+#main header div.left h1 { 
+	width: 100px;
+
+}
+
+#main header div.left h1 a { 
+	display: block;
+
+}
+
+#main header div.left h1 a img { 
+	display: block;
+	width: 100%;
+
+}
+
+#main header nav.right { 
+	width: 37%;
+	
+
+}
+
+#main header nav.right ul { 
+	display: flex;
+	align-items: center;
+	
+
+}
+
+#main header nav.right ul li { 
+	margin-right: 20px;
+
+}
+
+#main header nav.right ul li a { 
+	color: #fff;
+	font-weight: 500;
+
+}
+
+#main header nav.right ul li.icon{
+	width: 5%;
+	margin-right: 10px;
+		
+
+}
+#main header nav.right ul li.icon img{
+	display: block;
+	width: 100%;
+	
+
+}
+
+#main section.spotlight { 
+	padding: 10px 120px;
+}
+
+
+
+#main section.spotlight section.wrapper { 
+	display: flex;
+	margin-top: 100px;
+
+}
+
+#main section.spotlight section.wrapper div.left { 
+	
+}
+
+#main section.spotlight section.wrapper  div.left h2 { 
+	font-weight: bold;
+    color: #00BFD8;
+	font-size: xxx-large;
+
+}
+
+#main section.spotlight section.wrapper div.left h3 { 
+	font-weight: bold;
+    font-size: xxx-large;
+
+}
+
+#main section.spotlight section.wrapper div.left p { 
+	color: gray;
+    width: 90%;
+	margin: 20px 0px;
+
+
+}
+#main section.spotlight section.wrapper div.left a.button{
+	background-color: #00BFD8;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+
+#main section.spotlight section.wrapper div.right{
+	width: 91%;
+	
+
+}
+
+#main section.spotlight section.wrapper div.right img { 
+	display: block;
+	width: 100%;
+	
+
+}
+
+
+
+
+
+
+
+
+#Customers { 
+	padding: 100px 0px;
+
+}
+
+#Customers section.wrapper { 
+	text-align: center;
+	
+
+}
+
+#Customers section.wrapper p { 
+	font-weight: 600;
+
+}
+
+#Customers section.wrapper ul { 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	
+
+}
+
+#Customers section.wrapper ul li {
+	margin-right: 30px; 
+
+}
+
+#Customers section.wrapper ul li img { 
+
+}
+
+#services { 
+
+}
+
+#services section.wrapper { 
+
+}
+
+#services section.wrapper h2 { 
+	text-align: center;
+	font-weight: bold;
+
+}
+
+#services section.wrapper p { 
+	text-align: center;
+    margin-top: 10px;
+    color: gray;
+    line-height: normal;
+}
+
+
+
+#services section.wrapper div.box { 
+	margin: 50px 0px 50px 0px;
+
+}
+
+#services section.wrapper div.box ul { 
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#services section.wrapper div.box ul li {
+    width: 30%;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 50px 10px;
+}
+
+#services section.wrapper div.box ul li img.logo { 
+	display: block;
+	width: 100%;
+	height: 100px;
+
+}
+
+#services section.wrapper div.box ul li h3 {
+	text-align: center;
+	font-weight: 700;
+	margin-top: 20px;
+}
+
+#services section.wrapper div.box ul li p {
+	text-align: center;
+	width: 100%;
+	margin-top: 20px;
+}
+
+#services section.wrapper section.item { 
+	
+
+}
+
+#services section.wrapper section.item section.content-box { 
+
+}
+
+#services section.wrapper section.item section.content-box h2 { 
+
+}
+
+#services section.wrapper section.item section.content-box p { 
+
+}
+
+#services section.wrapper section.item section.content-box a.button { 
+
+}
+
+#services section.wrapper section.item section.img-container { 
+	
+
+}
+
+#services section.wrapper section.item section.img-container img { 
+	
+
+}
+
+#services section.wrapper section.pricing { 
+
+}
+
+#services section.wrapper section.pricing h2 { 
+
+}
+
+#services section.wrapper section.pricing p { 
+
+}
+
+#services section.wrapper section.pricing ul { 
+
+}
+
+#services section.wrapper section.pricing ul li { 
+
+}
+
+#services section.wrapper section.pricing ul li div.title { 
+
+}
+
+#services section.wrapper section.pricing ul li div.title h3 { 
+
+}
+
+#services section.wrapper section.pricing ul li div.title p { 
+
+}
+
+#services section.wrapper section.pricing ul li hr.line { 
+
+}
+
+#services section.wrapper section.pricing ul li div.content { 
+
+}
+
+#services section.wrapper section.pricing ul li div.content span { 
+
+}
+
+#services section.wrapper section.pricing ul li div.content small { 
+
+}
+
+#services section.wrapper section.pricing ul li div.content hr.line { 
+
+}
+
+#services section.wrapper section.pricing ul li div.content div.list { 
+
+}
+
+#services section.wrapper section.pricing ul li div.content div.list img { 
+
+}
+
+#services section.wrapper section.pricing ul li div.content div.list p { 
+
+}
+
+#services section.wrapper section.pricing ul li div.content a.button { 
+
+}
+
+#contact { 
+
+}
+
+#contact section.wrapper { 
+
+}
+
+#contact section.wrapper section.content-box { 
+
+}
+
+#contact section.wrapper section.content-box h2 { 
+
+}
+
+#contact section.wrapper section.content-box p { 
+
+}
+
+#contact section.wrapper section.content-box div.list { 
+
+}
+
+#contact section.wrapper section.content-box div.list img { 
+
+}
+
+#contact section.wrapper section.content-box div.list p { 
+
+}
+
+#contact section.wrapper section.content-box div.list p span { 
+
+}
+
+#contact section.wrapper section.contact-form { 
+
+}
+
+#contact section.wrapper section.contact-form form { 
+
+}
+
+#contact section.wrapper section.contact-form form input { 
+
+}
+
+#contact section.wrapper section.contact-form form br { 
+
+}
+
+#contact section.wrapper section.contact-form form select { 
+
+}
+
+#contact section.wrapper section.contact-form div.check { 
+
+}
+
+#contact section.wrapper section.contact-form div.check input { 
+
+}
+
+#contact section.wrapper section.contact-form div.check p { 
+
+}
+
+#contact section.wrapper section.contact-form div.check p span { 
+
+}
+
+#contact section.wrapper section.contact-form div.check a.button { 
+
+}
+
+#video-picture { 
+
+}
+
+#video-picture section.wrapper { 
+
+}
+
+#video-picture section.wrapper h2 { 
+
+}
+
+#video-picture section.wrapper img { 
+
+}
+
+#video-picture section.wrapper p { 
+
+}
+
+#video-picture section.wrapper p span { 
+
+}
+
+#about { 
+
+}
+
+#about section.wrapper { 
+
+}
+
+#about section.wrapper section.top { 
+
+}
+
+#about section.wrapper section.top h2 { 
+
+}
+
+#about section.wrapper section.top p { 
+
+}
+
+#about section.wrapper section.top ul { 
+
+}
+
+#about section.wrapper section.top ul li { 
+
+}
+
+#about section.wrapper section.top ul li img { 
+
+}
+
+#about section.wrapper section.top ul li h3 { 
+
+}
+
+#about section.wrapper section.top ul li small { 
+
+}
+
+#about section.wrapper section.top ul li div.icons { 
+
+}
+
+#about section.wrapper section.top ul li div.icons img.social-icon { 
+
+}
+
+#about section.wrapper section.bottom { 
+
+}
+
+#about section.wrapper section.bottom ul { 
+
+}
+
+#about section.wrapper section.bottom ul li { 
+
+}
+
+#about section.wrapper section.bottom ul li h3 { 
+
+}
+
+#about section.wrapper section.bottom ul li p { 
+
+}
+
+footer { 
+
+}
+
+footer section.wrapper { 
+
+}
+
+footer section.wrapper hr.line { 
+
+}
+
+footer section.wrapper small { 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
