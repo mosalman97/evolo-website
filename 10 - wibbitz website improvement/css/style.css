@@ -332,6 +332,8 @@ br.clear {
 	display: block;
 	width: 100%;
 	height: 100px;
+    margin-bottom: 15px;
+
 
 }
 #services section.wrapper section.top {padding: 30px 0px;display: flex;align-items: center;}
@@ -580,37 +582,33 @@ width: 10px;display: block;text-align: center;align-items: center;}
 
 #contact {padding: 100px 0px;}
 
-#contact section.wrapper {/* margin: 100px 0px; */}
+#contact section.wrapper {/* margin: 100px 0px; */display: flex;justify-content: space-evenly;}
 
 #contact section.wrapper section.content-box { 
 
 }
 
-#contact section.wrapper section.content-box h2 { 
-
-}
+#contact section.wrapper section.content-box h2 {font-size: 35px;font-weight: 700;}
 
 #contact section.wrapper section.content-box p { 
 
 }
 
-#contact section.wrapper section.content-box ul { 
-
-}
+#contact section.wrapper section.content-box ul {}
 
 #contact section.wrapper section.content-box ul li {display: flex;align-items: center;}
 
-#contact section.wrapper section.content-box ul li div.img-container {width: 10px;}
+#contact section.wrapper section.content-box ul li div.img-container {width: 20px;}
 
-#contact section.wrapper section.content-box ul li div.img-container img {display: block;width: 100%;}
+#contact section.wrapper section.content-box ul li div.img-container img {display: block;width: 100%;margin-left: -5px;}
 
-#contact section.wrapper section.content-box ul li p { 
-
+#contact section.wrapper section.content-box  p {color: gray;margin: 20px 0px;}
+#contact section.wrapper section.content-box ul li h6 {font-size: 20px;
+	color: gray;
 }
 
-#contact section.wrapper section.content-box ul li p span { 
 
-}
+#contact section.wrapper section.content-box ul li h6 span {font-weight: bold;}
 
 #contact section.wrapper section.contact-form { 
 
@@ -621,34 +619,50 @@ width: 10px;display: block;text-align: center;align-items: center;}
 }
 
 #contact section.wrapper section.contact-form form input { 
-
+	border: 1px solid gray;
+    padding: 15px 20px;
+    width: 100%;
+    margin: 10px 0px;
 }
+
+
 
 #contact section.wrapper section.contact-form form br { 
 
 }
 
 #contact section.wrapper section.contact-form form select { 
+	border: 1px solid gray;
+    padding: 15px 20px;
+    width: 100%;
+    margin: 10px 0px;
 
 }
 
 #contact section.wrapper section.contact-form div.check { 
+	display: flex;
+    align-items: center;
 
 }
 
 #contact section.wrapper section.contact-form div.check input { 
 
 }
+#contact section.wrapper section.contact-form div.check input.check{margin-right: 10px;} 
 
-#contact section.wrapper section.contact-form div.check p { 
+#contact section.wrapper section.contact-form div.check p {color: gray;}
 
+#contact section.wrapper section.contact-form div.check p span {
+    text-decoration: underline;
 }
 
-#contact section.wrapper section.contact-form div.check p span { 
-
-}
-
-#contact section.wrapper section.contact-form div.check a.button { 
+#contact section.wrapper section.contact-form  a.button { 
+	background: #00BFD8;
+    color: #fff;
+    padding: 15px 200px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 20px;
 
 }
 
