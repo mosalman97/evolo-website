@@ -348,7 +348,9 @@ br.clear {
 }
 
 #services section.wrapper section.item { 
-	
+	padding-top: 30px;
+	display: flex;
+	align-items: center;
 
 }
 
@@ -369,14 +371,36 @@ br.clear {
 }
 
 #services section.wrapper section.item section.img-container { 
+	width: 50%
 	
 
 }
 
 #services section.wrapper section.item section.img-container img { 
+	display: block;
+	width: 100%;
 	
 
 }
+#services section.wrapper section.item section.content-box ul{
+	
+
+}
+#services section.wrapper section.item section.content-box ul li{
+	display: flex;
+	display: flex;
+    width: 80%;
+    margin: 0 auto;
+	
+}
+#services section.wrapper section.item section.content-box ul li img{
+	width: 5%;
+	
+}
+#services section.wrapper section.item section.content-box ul li p{
+
+}
+
 
 #services section.wrapper section.pricing { 
 
