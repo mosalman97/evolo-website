@@ -380,150 +380,202 @@ br.clear {
 
 
 
-#pricing{padding: 100px 0px;}
-#pricing section.wrapper {
+#price {
+    margin: 100px 0px;
+}
+
+#price section.wrapper { 
 
 }
-#pricing section.wrapper div.heading{text-align: center;}
-#pricing section.wrapper div.heading h3{
-	font-size: 35px;
+
+#price section.wrapper div.heading {text-align: center;}
+
+#price section.wrapper div.heading h3 {font-size: 35px;font-weight: bold;}
+
+#price section.wrapper div.heading p {margin-top: 10px;}
+
+#price section.wrapper div.heading p br { 
+
+}
+
+#price section.wrapper div.box {margin-top: 30px;display: flex;justify-content: space-around;}
+
+#price section.wrapper div.box div.left-box {border: 1px solid;padding: 10px 50px;}
+
+#price section.wrapper div.box div.left-box div.title {text-align: center;}
+
+#price section.wrapper div.box div.left-box div.title h2 {
+    font-weight: bold;
+}
+
+#price section.wrapper div.box div.left-box div.title p {color: gray;}
+
+#price section.wrapper div.box div.left-box hr.line {border-bottom: 1px solid gray;margin-top: 30px;}
+
+#price section.wrapper div.box div.left-box div.content {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+#price section.wrapper div.box div.left-box div.content h2 {text-align: center;margin-top: 30px;color: #00BFD8;font-size: 35px;}
+
+#price section.wrapper div.box div.left-box div.content small {text-align: center;display: block;}
+
+#price section.wrapper div.box div.left-box div.content hr.line { 
+
+}
+
+#price section.wrapper div.box div.left-box div.content ul {
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+}
+
+#price section.wrapper div.box div.left-box div.content ul li {display: flex;margin-top: 20px;justify-content: center;text-align: center;}
+
+#price section.wrapper div.box div.left-box div.content ul li div.img-container {width: 10px;display: block;text-align: center;align-items: center;}
+
+#price section.wrapper div.box div.left-box div.content ul li div.img-container img {display: block;width: 100%;margin-left: -5px;text-align: center;}
+
+#price section.wrapper div.box div.left-box div.content ul li h6 {text-align: center;font-size: 15px;}
+
+#price section.wrapper div.box div.left-box div.content a.button {display: inline-block;background: #00BFD8;color: #fff;font-weight: 600;padding: 10px 30px;border-radius: 20px;width: 60%;/* margin:  0 auto; */margin-top: 25px;    position: relative;
+    top: 30px;
+}
+
+#price section.wrapper div.box div.middle-box { 
+	border: 1px solid;padding: 10px 50px;
+
+}
+
+#price section.wrapper div.box div.middle-box div.title { 
+	text-align: center;
+}
+
+#price section.wrapper div.box div.middle-box div.title h2 { 
+    font-weight: bold;
+}
+
+#price section.wrapper div.box div.middle-box div.title p { 
+	color: gray;
+}
+
+#price section.wrapper div.box div.middle-box hr.line { 
+	border-bottom: 1px solid gray;margin-top: 30px;
+}
+
+#price section.wrapper div.box div.middle-box div.content { 
+	display: block;
+    align-items: center;
+    text-align: center;
+}
+
+#price section.wrapper div.box div.middle-box div.content h2 { 
+	text-align: center;margin-top: 30px;color: #00BFD8;font-size: 35px;}
+
+
+#price section.wrapper div.box div.middle-box div.content small { 
+	text-align: center;display: block;
+}
+
+#price section.wrapper div.box div.middle-box div.content hr.line { 
+
+}
+
+#price section.wrapper div.box div.middle-box div.content ul { 
+	text-align: center;
+    display: block;
+    margin-top: 30px;
+}
+
+#price section.wrapper div.box div.middle-box div.content ul li { 
+	display: flex;margin-top: 20px;justify-content: center;text-align: center;
+}
+
+#price section.wrapper div.box div.middle-box div.content ul li div.img-container {
+	width: 10px;display: block;text-align: center;align-items: center;
+}
+
+#price section.wrapper div.box div.middle-box div.content ul li div.img-container img {
+	display: block;width: 100%;margin-left: -5px;text-align: center;
+}
+
+#price section.wrapper div.box div.middle-box div.content ul li h6 { 
+	text-align: center;font-size: 15px;
+
+}
+
+#price section.wrapper div.box div.middle-box div.content a.button { 
+	display: inline-block;background: #00BFD8;color: #fff;font-weight: 600;padding: 10px 30px;border-radius: 20px;width: 60%;/* margin:  0 auto; */margin-top: 25px;    position: relative;
+    top: 30px;
+}
+
+#price section.wrapper div.box div.right-box { 
+	border: 1px solid;padding: 10px 50px;
+}
+
+#price section.wrapper div.box div.right-box div.title { 
+	text-align: center;
+}
+
+#price section.wrapper div.box div.right-box div.title h2 { 
 	font-weight: bold;
 }
-#pricing section.wrapper div.heading p{
+
+#price section.wrapper div.box div.right-box div.title p { 
 	color: gray;
-	margin-top: 10px;
-	line-height: 1.2em;
 }
-#pricing section.wrapper div.box div.left-box{
 
+#price section.wrapper div.box div.right-box hr.line { 
+	border-bottom: 1px solid gray;margin-top: 30px;
 }
-#pricing  section.wrapper div.box div.left-box div.title{
-	
-}
-#pricing  section.wrapper div.box div.left-box div.title h2{
-	
-}
-#pricing  section.wrapper div.box div.left-box div.title p{
-	
-}
-#pricing  section.wrapper div.box div.left-box hr.line{
-	
-}
-#pricing  section.wrapper div.box div.left-box div.content{
-	
-}
-#pricing  section.wrapper div.box div.left-box div.content h2{
-	
-}
-#pricing section.wrapper div.box div.left-box div.content small{
-	
-}
-#pricing  section.wrapper div.box div.left-box div.content ul{
-	
-}
-#pricing  section.wrapper div.box div.left-box div.content ul li{
-	
-}
-#pricing section.wrapper div.box div.left-box div.content ul li div.img-container{
-	
-}
-#pricing section.wrapper div.box div.left-box div.content ul li div.img-container img{
-	
-}
-#pricing section.wrapper div.box div.left-box div.content ul li h6{
-	
-}
-#pricing section.wrapper div.box div.left-box div.content a.button{
+
+#price section.wrapper div.box div.right-box div.content { 
+	display: block;
+    align-items: center;
+    text-align: center;
 
 }
 
-#pricing section.wrapper div.box div.middle-box{
+#price section.wrapper div.box div.right-box div.content h2 { 
+	text-align: center;margin-top: 30px;color: #00BFD8;font-size: 35px;
 
 }
-#pricing section.wrapper div.box div.middle-box div.title{
-	
-}
-#pricing section.wrapper div.box div.middle-box div.title h2{
-	
-}
-#pricing section.wrapper div.box div.middle-box div.title p{
-	
-}
-#pricing section.wrapper div.box div.middle-box hr.line{
-	
-}
-#pricing section.wrapper div.box div.middle-box div.content{
-	
-}
-#pricing section.wrapper div.box div.middle-box div.content h2{
-	
-}
-#pricing section.wrapper div.box div.middle-box div.content small{
-	
-}
-#pricing section.wrapper div.box div.middle-box div.content ul{
-	
-}
-#pricing section.wrapper div.box div.middle-box div.content ul li{
-	
-}
-#pricing section.wrapper div.box div.middle-box div.content ul li div.img-container{
-	
-}
-#pricing section.wrapper div.box div.middle-box div.content ul li div.img-container img{
-	
-}
-#pricing section.wrapper div.box div.middle-box div.content ul li h6{
-	
-}
-#pricing section.wrapper div.box div.middle-box div.content a.button{
-	
+
+#price section.wrapper div.box div.right-box div.content small { 
+	text-align: center;display: block;
 }
 
-#pricing section.wrapper div.box div.right-box{
+#price section.wrapper div.box div.right-box div.content hr.line { 
 
 }
-#pricing section.wrapper div.box div.right-box div.title{
-	
-}
-#pricing section.wrapper div.box div.right-box div.title h2{
-	
-}
-#pricing section.wrapper div.box div.right-box div.title p{
-	
-}
-#pricing section.wrapper div.box div.right-box hr.line{
-	
-}
-#pricing section.wrapper div.box div.right-box div.content{
-	
-}
-#pricing section.wrapper div.box div.right-box div.content h2{
-	
-}
-#pricing section.wrapper div.box div.right-box div.content small{
-	
-}
-#pricing section.wrapper div.box div.right-box div.content ul{
-	
-}
-#pricing section.wrapper div.box div.right-box div.content ul li{
-	
-}
-#pricingsection.wrapper div.box div.right-box div.content ul li div.img-container{
-	
-}
-#pricing section.wrapper div.box div.right-box div.content ul li div.img-container img{
-	
-}
-#pricing section.wrapper div.box div.right-box div.content ul li h6{
-	
-}
-#pricing section.wrapper div.box div.right-box div.content a.button{
-	
+
+#price section.wrapper div.box div.right-box div.content ul { 
+	text-align: center;
+    display: block;
+    margin-top: 30px;
 }
 
+#price section.wrapper div.box div.right-box div.content ul li { 
+	display: flex;margin-top: 20px;justify-content: center;text-align: center;
+}
 
+#price section.wrapper div.box div.right-box div.content ul li div.img-container {
+width: 10px;display: block;text-align: center;align-items: center;}
+
+#price section.wrapper div.box div.right-box div.content ul li div.img-container img {
+	display: block;width: 100%;margin-left: -5px;text-align: center
+}
+
+#price section.wrapper div.box div.right-box div.content ul li h6 { 
+	text-align: center;font-size: 15px;
+}
+
+#price section.wrapper div.box div.right-box div.content a.button { 
+	display: inline-block;background: #00BFD8;color: #fff;font-weight: 600;padding: 10px 30px;border-radius: 20px;width: 60%;/* margin:  0 auto; */margin-top: 25px;position: relative;
+    top: 30px;
+}
 
 
 
