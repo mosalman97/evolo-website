@@ -334,141 +334,206 @@ br.clear {
 	height: 100px;
 
 }
+#services section.wrapper section.top {padding: 30px 0px;display: flex;align-items: center;}
 
-#services section.wrapper div.box ul li h3 {
-	text-align: center;
-	font-weight: 700;
-	margin-top: 20px;
-}
+#services section.wrapper section.top div.left {}
 
-#services section.wrapper div.box ul li p {
-	text-align: center;
-	width: 100%;
-	margin-top: 20px;
-}
-
-#services section.wrapper section.item { 
-	padding-top: 30px;
-	display: flex;
-	align-items: center;
+#services section.wrapper section.top div.left h2 { 
 
 }
 
-#services section.wrapper section.item section.content-box { 
+#services section.wrapper section.top div.left h2  {text-align: left;width: 60%;font-size: 38px;}
+
+#services section.wrapper section.top div.left p {text-align: left;width: 50%;}
+
+#services section.wrapper section.top div.left a.button {background: #00BFD8;color: #fff;font-weight: 600;padding: 10px 30px;border-radius: 20px;display: inline-block;margin-top: 20px;}
+
+#services section.wrapper section.top div.right {width: 70%;}
+
+#services section.wrapper section.top div.right img {display: block;width: 100%;}
+
+#services section.wrapper section.bottom {margin-top: 50px;display: flex;justify-content: space-between;align-items: center;}
+
+#services section.wrapper section.bottom div.left {width: 50%;}
+
+#services section.wrapper section.bottom div.left img {width: 100%;display: block;}
+
+#services section.wrapper section.bottom div.right {text-align: left;}
+
+#services section.wrapper section.bottom div.right h2 {
+    width: 54%;
+    text-align: left;
+}
+
+#services section.wrapper section.bottom div.right ul {text-align: left;}
+
+#services section.wrapper section.bottom div.right  ul li{display: flex;align-items: center;text-align: left;}
+
+#services section.wrapper section.bottom div.right ul li div.img-container {width: 10px;/* display: inline-block; */align-items: center;text-align: center;}
+
+#services section.wrapper section.bottom div.right ul li div.img-container img {display: inline-block;width: 100%;margin-right: 1;ma;margin-left: -10px;margin-left: 1;/* FONT-WEIGHT: 100; */}
+#services section.wrapper section.bottom div.right ul li p{
 
 }
 
-#services section.wrapper section.item section.content-box h2 { 
+#services section.wrapper section.bottom div.right a.button {display: inline-block;background-color:  #00BFD8;color: #fff;padding: 10px 30px;margin-top: 20px;border-radius: 20px;font-weight: 600;}
+
+
+
+#pricing{padding: 100px 0px;}
+#pricing section.wrapper {
 
 }
-
-#services section.wrapper section.item section.content-box p { 
+#pricing section.wrapper div.heading{text-align: center;}
+#pricing section.wrapper div.heading h3{
+	font-size: 35px;
+	font-weight: bold;
+}
+#pricing section.wrapper div.heading p{
+	color: gray;
+	margin-top: 10px;
+	line-height: 1.2em;
+}
+#pricing section.wrapper div.box div.left-box{
 
 }
-
-#services section.wrapper section.item section.content-box a.button { 
-
-}
-
-#services section.wrapper section.item section.img-container { 
-	width: 50%
+#pricing  section.wrapper div.box div.left-box div.title{
 	
-
 }
-
-#services section.wrapper section.item section.img-container img { 
-	display: block;
-	width: 100%;
-	
-
-}
-#services section.wrapper section.item section.content-box ul{
-	
-
-}
-#services section.wrapper section.item section.content-box ul li{
-	display: flex;
-	display: flex;
-    width: 80%;
-    margin: 0 auto;
+#pricing  section.wrapper div.box div.left-box div.title h2{
 	
 }
-#services section.wrapper section.item section.content-box ul li img{
-	width: 5%;
+#pricing  section.wrapper div.box div.left-box div.title p{
 	
 }
-#services section.wrapper section.item section.content-box ul li p{
+#pricing  section.wrapper div.box div.left-box hr.line{
+	
+}
+#pricing  section.wrapper div.box div.left-box div.content{
+	
+}
+#pricing  section.wrapper div.box div.left-box div.content h2{
+	
+}
+#pricing section.wrapper div.box div.left-box div.content small{
+	
+}
+#pricing  section.wrapper div.box div.left-box div.content ul{
+	
+}
+#pricing  section.wrapper div.box div.left-box div.content ul li{
+	
+}
+#pricing section.wrapper div.box div.left-box div.content ul li div.img-container{
+	
+}
+#pricing section.wrapper div.box div.left-box div.content ul li div.img-container img{
+	
+}
+#pricing section.wrapper div.box div.left-box div.content ul li h6{
+	
+}
+#pricing section.wrapper div.box div.left-box div.content a.button{
 
 }
 
-
-#services section.wrapper section.pricing { 
-
-}
-
-#services section.wrapper section.pricing h2 { 
+#pricing section.wrapper div.box div.middle-box{
 
 }
-
-#services section.wrapper section.pricing p { 
-
+#pricing section.wrapper div.box div.middle-box div.title{
+	
+}
+#pricing section.wrapper div.box div.middle-box div.title h2{
+	
+}
+#pricing section.wrapper div.box div.middle-box div.title p{
+	
+}
+#pricing section.wrapper div.box div.middle-box hr.line{
+	
+}
+#pricing section.wrapper div.box div.middle-box div.content{
+	
+}
+#pricing section.wrapper div.box div.middle-box div.content h2{
+	
+}
+#pricing section.wrapper div.box div.middle-box div.content small{
+	
+}
+#pricing section.wrapper div.box div.middle-box div.content ul{
+	
+}
+#pricing section.wrapper div.box div.middle-box div.content ul li{
+	
+}
+#pricing section.wrapper div.box div.middle-box div.content ul li div.img-container{
+	
+}
+#pricing section.wrapper div.box div.middle-box div.content ul li div.img-container img{
+	
+}
+#pricing section.wrapper div.box div.middle-box div.content ul li h6{
+	
+}
+#pricing section.wrapper div.box div.middle-box div.content a.button{
+	
 }
 
-#services section.wrapper section.pricing ul { 
+#pricing section.wrapper div.box div.right-box{
 
 }
-
-#services section.wrapper section.pricing ul li { 
-
+#pricing section.wrapper div.box div.right-box div.title{
+	
+}
+#pricing section.wrapper div.box div.right-box div.title h2{
+	
+}
+#pricing section.wrapper div.box div.right-box div.title p{
+	
+}
+#pricing section.wrapper div.box div.right-box hr.line{
+	
+}
+#pricing section.wrapper div.box div.right-box div.content{
+	
+}
+#pricing section.wrapper div.box div.right-box div.content h2{
+	
+}
+#pricing section.wrapper div.box div.right-box div.content small{
+	
+}
+#pricing section.wrapper div.box div.right-box div.content ul{
+	
+}
+#pricing section.wrapper div.box div.right-box div.content ul li{
+	
+}
+#pricingsection.wrapper div.box div.right-box div.content ul li div.img-container{
+	
+}
+#pricing section.wrapper div.box div.right-box div.content ul li div.img-container img{
+	
+}
+#pricing section.wrapper div.box div.right-box div.content ul li h6{
+	
+}
+#pricing section.wrapper div.box div.right-box div.content a.button{
+	
 }
 
-#services section.wrapper section.pricing ul li div.title { 
 
-}
 
-#services section.wrapper section.pricing ul li div.title h3 { 
 
-}
 
-#services section.wrapper section.pricing ul li div.title p { 
 
-}
 
-#services section.wrapper section.pricing ul li hr.line { 
 
-}
+ 
 
-#services section.wrapper section.pricing ul li div.content { 
 
-}
 
-#services section.wrapper section.pricing ul li div.content span { 
-
-}
-
-#services section.wrapper section.pricing ul li div.content small { 
-
-}
-
-#services section.wrapper section.pricing ul li div.content hr.line { 
-
-}
-
-#services section.wrapper section.pricing ul li div.content div.list { 
-
-}
-
-#services section.wrapper section.pricing ul li div.content div.list img { 
-
-}
-
-#services section.wrapper section.pricing ul li div.content div.list p { 
-
-}
-
-#services section.wrapper section.pricing ul li div.content a.button { 
-
-}
 
 #contact { 
 
