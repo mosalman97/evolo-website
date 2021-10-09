@@ -1089,7 +1089,14 @@ section.about section.wrapper div.bottom div.item {
 #about-evolo section.wrapper div.container div.item {
   width: 20%;
 }
-
+#main header div.left h1 {
+  width: 200px;
+}
+#main header div.left {
+  /* margin-left: 100px; */
+  width: 41%;
+  margin: 0 auto;
+}
 
  
 
@@ -1098,5 +1105,43 @@ section.about section.wrapper div.bottom div.item {
 }
 
 @media all and (max-width: 360px){
+    
+  #main section.spotlight {
+    width: 100%;
+    margin: 0 auto;
+}
+#main header div.left h1 {
+  width: 200px;
+}
+#main header div.left {
+  /* margin-left: 100px; */
+  width: 41%;
+  margin: 0 auto;
+}
+#Customers section.wrapper ul li img {
+  width: 100%;
+}
+#Customers section.wrapper ul li {
+  margin-right: 10px;
+}
+#Customers section.wrapper ul li img {
+  /* width: 100%; */
+  height: 20px;
+  width: 55px;
+}
+#Customers section.wrapper ul li {
+  margin-right: 11px;
+}
+#contact section.wrapper section.content-box h2{
+  display: none;
+}
+#video-picture section.wrapper div.img-container div.play {
+ 
+  display: none;
+}
+#about-evolo section.wrapper div.container div.item {
+  width: 30%;
+}
+
 
 }
