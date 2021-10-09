@@ -1,839 +1,895 @@
 * {
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
-  vertical-align: baseline;
-  background: transparent;
-  font-weight: normal;
-  text-decoration: none;
-  outline: none;
-  box-sizing: border-box;
-}
-ol,
-ul {
-  list-style: none;
-}
-del {
-  text-decoration: line-through;
-}
-body {
-  font-family: GT-Eesti, Arial, Helvetica, sans-serif;
-  font-size: 17px;
-  color: rgb(0, 0, 0);
-  overflow-x: hidden;
-  min-width: 320px;
-  font-weight: 500;
-}
-input,
-textarea,
-select {
-  font-family: GT-Eesti, Arial, Helvetica, sans-serif;
-  font-weight: 500;
-}
-a {
-  color: rgb(0, 0, 0);
-}
-.thumb {
-  display: block;
-}
-.thumb img {
-  display: block;
-  width: 100%;
-}
-p {
-  line-height: 1.6em;
-  font-size: 16px;
-  font-family: GT-Eesti, Arial;
-  font-weight: 500;
-  color: rgb(0, 0, 0);
-}
-.hidden {
-  display: none;
-}
-br.clear {
-  clear: both;
-  line-height: 0;
-}
-.wrapper {
-  width: 90%;
-  margin: 0px auto;
-  max-width: 1200px;
-}
-.flex-wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-@font-face {
-  font-family: GT-Eesti;
-  src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"),
-    url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: GT-Eesti;
-  src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"),
-    url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: GT-Eesti;
-  src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"),
-    url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: GT-Eesti;
-  src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"),
-    url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
-::placeholder {
-  color: rgb(155, 155, 155);
-  opacity: 1;
-}
-#main {
-  background: url("../images/header-background.jpg") right 46% top 24% / 100%
-    no-repeat;
-}
-#main header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 50px;
-}
-#main header div.left {
-  margin-left: 100px;
-}
-#main header div.left h1 {
-  width: 100px;
-}
-#main header div.left h1 a {
-  display: block;
-}
-#main header div.left h1 a img {
-  display: block;
-  width: 100%;
-}
-#main header nav.right {
-  width: 37%;
-}
-#main header nav.right ul {
-  display: flex;
-  align-items: center;
-}
-#main header nav.right ul li {
-  margin-right: 20px;
-}
-#main header nav.right ul li a {
-  color: rgb(255, 255, 255);
-  font-weight: 500;
-}
-#main header nav.right ul li a img {
-  filter: brightness(0) invert(1);
-}
-#main header nav.right ul li.icon {
-  width: 5%;
-  margin-right: 10px;
-}
-#main header nav.right ul li.icon img {
-  display: block;
-  width: 100%;
-}
-#main section.spotlight {
-  padding: 10px 120px;
-}
-#main section.spotlight section.wrapper {
-  display: flex;
-  margin-top: 100px;
-}
-#main section.spotlight section.wrapper div.left {
-}
-#main section.spotlight section.wrapper div.left h2 {
-  font-weight: bold;
-  color: rgb(0, 191, 216);
-  font-size: xxx-large;
-}
-#main section.spotlight section.wrapper div.left h3 {
-  font-weight: bold;
-  font-size: xxx-large;
-}
-#main section.spotlight section.wrapper div.left p {
-  color: gray;
-  width: 90%;
-  margin: 20px 0px;
-}
-#main section.spotlight section.wrapper div.left a.button {
-  background-color: rgb(0, 191, 216);
-  color: rgb(255, 255, 255);
-  padding: 10px 35px;
-  border-radius: 25px;
-  font-weight: 600;
-}
-#main section.spotlight section.wrapper div.right {
-  width: 91%;
-}
-#main section.spotlight section.wrapper div.right img {
-  display: block;
-  width: 100%;
-}
-#Customers {
-  padding: 100px 0px;
-}
-#Customers section.wrapper {
-  text-align: center;
-}
-#Customers section.wrapper p {
-  font-weight: 600;
-}
-#Customers section.wrapper ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-#Customers section.wrapper ul li {
-  margin-right: 30px;
-}
-#Customers section.wrapper ul li img {
-}
-#services {
-}
-#services section.wrapper {
-}
-#services section.wrapper h2 {
-  text-align: center;
-  font-weight: bold;
-}
-#services section.wrapper p {
-  text-align: center;
-  margin-top: 10px;
-  color: gray;
-  line-height: normal;
-}
-#services section.wrapper div.box {
-  margin: 50px 0px;
-}
-#services section.wrapper div.box ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#services section.wrapper div.box ul li {
-  width: 30%;
-  text-align: center;
-  border: 1px solid gray;
-  border-radius: 8px;
-  padding: 50px 10px;
-}
-#services section.wrapper div.box ul li img.logo {
-  display: block;
-  width: 100%;
-  height: 100px;
-  margin-bottom: 15px;
-}
-#services section.wrapper section.top {
-  padding: 30px 0px;
-  display: flex;
-  align-items: center;
-}
-#services section.wrapper section.top div.left {
-}
-#services section.wrapper section.top div.left h2 {
-}
-#services section.wrapper section.top div.left h2 {
-  text-align: left;
-  width: 60%;
-  font-size: 38px;
-}
-#services section.wrapper section.top div.left p {
-  text-align: left;
-  width: 50%;
-}
-#services section.wrapper section.top div.left a.button {
-  background: rgb(0, 191, 216);
-  color: rgb(255, 255, 255);
-  font-weight: 600;
-  padding: 10px 30px;
-  border-radius: 20px;
-  display: inline-block;
-  margin-top: 20px;
-}
-#services section.wrapper section.top div.right {
-  width: 70%;
-}
-#services section.wrapper section.top div.right img {
-  display: block;
-  width: 100%;
-}
-#services section.wrapper section.bottom {
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#services section.wrapper section.bottom div.left {
-  width: 50%;
-}
-#services section.wrapper section.bottom div.left img {
-  width: 100%;
-  display: block;
-}
-#services section.wrapper section.bottom div.right {
-  text-align: left;
-}
-#services section.wrapper section.bottom div.right h2 {
-  width: 54%;
-  text-align: left;
-}
-#services section.wrapper section.bottom div.right ul {
-  text-align: left;
-}
-#services section.wrapper section.bottom div.right ul li {
-  display: flex;
-  align-items: center;
-  text-align: left;
-}
-#services section.wrapper section.bottom div.right ul li div.img-container {
-  width: 10px;
-  align-items: center;
-  text-align: center;
-}
-#services section.wrapper section.bottom div.right ul li div.img-container img {
-  display: inline-block;
-  width: 100%;
-  margin-left: -10px;
-}
-#services section.wrapper section.bottom div.right ul li p {
-}
-#services section.wrapper section.bottom div.right a.button {
-  display: inline-block;
-  background-color: rgb(0, 191, 216);
-  color: rgb(255, 255, 255);
-  padding: 10px 30px;
-  margin-top: 20px;
-  border-radius: 20px;
-  font-weight: 600;
-}
-#price {
-  margin: 100px 0px;
-}
-#price section.wrapper {
-}
-#price section.wrapper div.heading {
-  text-align: center;
-}
-#price section.wrapper div.heading h3 {
-  font-size: 35px;
-  font-weight: bold;
-}
-#price section.wrapper div.heading p {
-  margin-top: 10px;
-}
-#price section.wrapper div.heading p br {
-}
-#price section.wrapper div.box {
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-around;
-}
-#price section.wrapper div.box div.left-box {
-  border: 1px solid;
-  padding: 10px 50px;
-}
-#price section.wrapper div.box div.left-box div.title {
-  text-align: center;
-}
-#price section.wrapper div.box div.left-box div.title h2 {
-  font-weight: bold;
-}
-#price section.wrapper div.box div.left-box div.title p {
-  color: gray;
-}
-#price section.wrapper div.box div.left-box hr.line {
-  border-bottom: 1px solid gray;
-  margin-top: 30px;
-}
-#price section.wrapper div.box div.left-box div.content {
-  display: block;
-  align-items: center;
-  text-align: center;
-}
-#price section.wrapper div.box div.left-box div.content h2 {
-  text-align: center;
-  margin-top: 30px;
-  color: rgb(0, 191, 216);
-  font-size: 35px;
-  font-weight: bold;
-}
-#price section.wrapper div.box div.left-box div.content small {
-  text-align: center;
-  display: block;
-}
-#price section.wrapper div.box div.left-box div.content hr.line {
-}
-#price section.wrapper div.box div.left-box div.content ul {
-  text-align: center;
-  display: block;
-  margin-top: 30px;
-}
-#price section.wrapper div.box div.left-box div.content ul li {
-  display: flex;
-  margin-top: 20px;
-  align-items: center;
-}
-#price
-  section.wrapper
-  div.box
-  div.left-box
-  div.content
-  ul
-  li
-  div.img-container {
-  width: 15px;
-  display: block;
-  text-align: center;
-  align-items: center;
-}
-#price
-  section.wrapper
-  div.box
-  div.left-box
-  div.content
-  ul
-  li
-  div.img-container
-  img {
-  display: block;
-  width: 100%;
-  margin-left: -5px;
-  text-align: center;
-}
-#price section.wrapper div.box div.left-box div.content ul li h6 {
-  text-align: center;
-  font-size: 15px;
-}
-#price section.wrapper div.box div.left-box div.content a.button {
-  display: inline-block;
-  background: rgb(0, 191, 216);
-  color: rgb(255, 255, 255);
-  font-weight: 600;
-  padding: 10px 30px;
-  border-radius: 20px;
-  width: 60%;
-  margin-top: 25px;
-  position: relative;
-  top: 30px;
-}
-#price section.wrapper div.box div.middle-box {
-  border: 1px solid;
-  padding: 10px 50px;
-}
-#price section.wrapper div.box div.middle-box div.title {
-  text-align: center;
-}
-#price section.wrapper div.box div.middle-box div.title h2 {
-  font-weight: bold;
-}
-#price section.wrapper div.box div.middle-box div.title p {
-  color: gray;
-}
-#price section.wrapper div.box div.middle-box hr.line {
-  border-bottom: 1px solid gray;
-  margin-top: 30px;
-}
-#price section.wrapper div.box div.middle-box div.content {
-  display: block;
-  align-items: center;
-  text-align: center;
-}
-#price section.wrapper div.box div.middle-box div.content h2 {
-  text-align: center;
-  margin-top: 30px;
-  color: rgb(0, 191, 216);
-  font-size: 35px;
-  font-weight: bold;
-}
-#price section.wrapper div.box div.middle-box div.content small {
-  text-align: center;
-  display: block;
-}
-#price section.wrapper div.box div.middle-box div.content hr.line {
-}
-#price section.wrapper div.box div.middle-box div.content ul {
-  text-align: center;
-  display: block;
-  margin-top: 30px;
-}
-#price section.wrapper div.box div.middle-box div.content ul li {
-  display: flex;
-  margin-top: 20px;
-  align-items: center;
-}
-#price
-  section.wrapper
-  div.box
-  div.middle-box
-  div.content
-  ul
-  li
-  div.img-container {
-  width: 15px;
-  display: block;
-  text-align: center;
-  align-items: center;
-}
-#price
-  section.wrapper
-  div.box
-  div.middle-box
-  div.content
-  ul
-  li
-  div.img-container
-  img {
-  display: block;
-  width: 100%;
-  margin-left: -5px;
-  text-align: center;
-}
-#price section.wrapper div.box div.middle-box div.content ul li h6 {
-  text-align: center;
-  font-size: 15px;
-}
-#price section.wrapper div.box div.middle-box div.content a.button {
-  display: inline-block;
-  background: rgb(0, 191, 216);
-  color: rgb(255, 255, 255);
-  font-weight: 600;
-  padding: 10px 30px;
-  border-radius: 20px;
-  width: 60%;
-  margin-top: 25px;
-  position: relative;
-  top: 30px;
-}
-#price section.wrapper div.box div.right-box {
-  border: 1px solid;
-  padding: 10px 50px;
-}
-#price section.wrapper div.box div.right-box div.title {
-  text-align: center;
-}
-#price section.wrapper div.box div.right-box div.title h2 {
-  font-weight: bold;
-}
-#price section.wrapper div.box div.right-box div.title p {
-  color: gray;
-}
-#price section.wrapper div.box div.right-box hr.line {
-  border-bottom: 1px solid gray;
-  margin-top: 30px;
-}
-#price section.wrapper div.box div.right-box div.content {
-  display: block;
-  align-items: center;
-  text-align: center;
-}
-#price section.wrapper div.box div.right-box div.content h2 {
-  text-align: center;
-  margin-top: 30px;
-  color: rgb(0, 191, 216);
-  font-size: 35px;
-  font-weight: bold;
-}
-#price section.wrapper div.box div.right-box div.content small {
-  text-align: center;
-  display: block;
-}
-#price section.wrapper div.box div.right-box div.content hr.line {
-}
-#price section.wrapper div.box div.right-box div.content ul {
-  text-align: center;
-  display: block;
-  margin-top: 30px;
-}
-#price section.wrapper div.box div.right-box div.content ul li {
-  display: flex;
-  margin-top: 20px;
-  align-items: center;
-}
-#price
-  section.wrapper
-  div.box
-  div.right-box
-  div.content
-  ul
-  li
-  div.img-container {
-  width: 15px;
-  display: block;
-  text-align: center;
-  align-items: center;
-}
-#price
-  section.wrapper
-  div.box
-  div.right-box
-  div.content
-  ul
-  li
-  div.img-container
-  img {
-  display: block;
-  width: 100%;
-  margin-left: -5px;
-  text-align: center;
-}
-#price section.wrapper div.box div.right-box div.content ul li h6 {
-  text-align: center;
-  font-size: 15px;
-}
-#price section.wrapper div.box div.right-box div.content a.button {
-  display: inline-block;
-  background: rgb(0, 191, 216);
-  color: rgb(255, 255, 255);
-  font-weight: 600;
-  padding: 10px 30px;
-  border-radius: 20px;
-  width: 60%;
-  margin-top: 25px;
-  position: relative;
-  top: 30px;
-}
-#contact {
-  padding: 100px 0px;
-}
-#contact section.wrapper {
-  display: flex;
-  justify-content: space-evenly;
-}
-#contact section.wrapper section.content-box {
-}
-#contact section.wrapper section.content-box h2 {
-  font-size: 35px;
-  font-weight: 700;
-}
-#contact section.wrapper section.content-box p {
-}
-#contact section.wrapper section.content-box ul {
-}
-#contact section.wrapper section.content-box ul li {
-  display: flex;
-  align-items: center;
-}
-#contact section.wrapper section.content-box ul li div.img-container {
-  width: 20px;
-}
-#contact section.wrapper section.content-box ul li div.img-container img {
-  display: block;
-  width: 100%;
-  margin-left: -5px;
-}
-#contact section.wrapper section.content-box p {
-  color: gray;
-  margin: 20px 0px;
-}
-#contact section.wrapper section.content-box ul li h6 {
-  font-size: 20px;
-  color: gray;
-}
-#contact section.wrapper section.content-box ul li h6 span {
-  font-weight: bold;
-}
-#contact section.wrapper section.contact-form {
-}
-#contact section.wrapper section.contact-form form {
-}
-#contact section.wrapper section.contact-form form input {
-  border: 1px solid gray;
-  padding: 15px 20px;
-  width: 100%;
-  margin: 10px 0px;
-}
-#contact section.wrapper section.contact-form form br {
-}
-#contact section.wrapper section.contact-form form select {
-  border: 1px solid gray;
-  padding: 15px 20px;
-  width: 100%;
-  margin: 10px 0px;
-}
-#contact section.wrapper section.contact-form div.check {
-  display: flex;
-  align-items: center;
-}
-#contact section.wrapper section.contact-form div.check input {
-}
-#contact section.wrapper section.contact-form div.check input.check {
-  margin-right: 10px;
-}
-#contact section.wrapper section.contact-form div.check p {
-  color: gray;
-}
-#contact section.wrapper section.contact-form div.check p span {
-  text-decoration: underline;
-}
-#contact section.wrapper section.contact-form a.button {
-  background: rgb(0, 191, 216);
-  color: rgb(255, 255, 255);
-  padding: 15px 200px;
-  display: inline-block;
-  margin-top: 15px;
-  border-radius: 20px;
-}
-#video-picture {
-}
-#video-picture section.wrapper {
-  padding: 100px 0px;
-  align-items: center;
-  text-align: center;
-}
-#video-picture section.wrapper h2 {
-  text-align: center;
-  font-size: 35px;
-  font-weight: 800;
-}
-#video-picture section.wrapper div.img-container {
-  width: 50%;
-  margin: 0px auto;
-  padding: 20px 0px;
-}
-#video-picture section.wrapper div.img-container img {
-  display: block;
-  width: 100%;
-}
-#video-picture section.wrapper div.img-container div.play {
-  width: 8%;
-  position: relative;
-}
-#video-picture section.wrapper div.img-container div.play img.play {
-  display: block;
-  width: 100%;
-  position: absolute;
-  left: 278px;
-  bottom: 140px;
-  background: rgb(0, 191, 216);
-  padding: 15px;
-  border-radius: 50%;
-}
-#video-picture section.wrapper p {
-  text-align: center;
-  color: gray;
-}
-#video-picture section.wrapper p span {
-  font-weight: bold;
-}
-section.about {
-}
-section.about section.wrapper {
-}
-section.about section.wrapper div.top {
-  text-align: center;
-  padding: 30px 0px;
-}
-section.about section.wrapper div.top h2 {
-  font-size: 35px;
-  font-weight: 800;
-}
-section.about section.wrapper div.top p {
-  padding-top: 15px;
-  color: gray;
-}
-section.about section.wrapper div.top p br {
-}
-section.about section.wrapper div.bottom {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 0px 100px;
-}
-section.about section.wrapper div.bottom div.item {
-}
-section.about section.wrapper div.bottom div.item div.team {
-}
-section.about section.wrapper div.bottom div.item div.team img {
-  border-radius: 50%;
-}
-section.about section.wrapper div.bottom div.item h4 {
-  text-align: center;
-  font-weight: 700;
-  margin: 10px 0px;
-}
-section.about section.wrapper div.bottom div.item small {
-  display: block;
-  text-align: center;
-  margin-bottom: 10px;
-  color: gray;
-  font-weight: 500;
-}
-section.about section.wrapper div.bottom div.item div.icons {
-  display: flex;
-  justify-content: center;
-}
-section.about section.wrapper div.bottom div.item div.icons img {
-  width: 20%;
-  margin-right: 10px;
-}
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    
+  }
+  ol,
+  ul {
+    list-style: none;
+  }
+  del {
+    text-decoration: line-through;
+  }
+  body {
+    font-family: GT-Eesti, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    min-width: 320px;
+    font-weight: 500;
+  }
+  input,
+  textarea,
+  select {
+    font-family: GT-Eesti, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+  }
+  a {
+    color: rgb(0, 0, 0);
+  }
+  .thumb {
+    display: block;
+  }
+  .thumb img {
+    display: block;
+    width: 100%;
+  }
+  p {
+    line-height: 1.6em;
+    font-size: 16px;
+    font-family: GT-Eesti, Arial;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+  }
+  .hidden {
+    display: none;
+  }
+  br.clear {
+    clear: both;
+    line-height: 0;
+  }
+  .wrapper {
+    width: 90%;
+    margin: 0px auto;
+    max-width: 1200px;
+  }
+  .flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  @font-face {
+    font-family: GT-Eesti;
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"),
+      url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: GT-Eesti;
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"),
+      url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: GT-Eesti;
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"),
+      url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: GT-Eesti;
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"),
+      url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
+  ::placeholder {
+    color: rgb(155, 155, 155);
+    opacity: 1;
+  }
+  #main {
+    background: url("../images/header-background.jpg") right 46% top 24% / 100%
+      no-repeat;
+  }
+  #main header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+  }
+  #main header div.left {
+    margin-left: 100px;
+  }
+  #main header div.left h1 {
+    width: 100px;
+  }
+  #main header div.left h1 a {
+    display: block;
+  }
+  #main header div.left h1 a img {
+    display: block;
+    width: 100%;
+  }
+  #main header nav.right {
+    width: 37%;
+  }
+  #main header nav.right ul {
+    display: flex;
+    align-items: center;
+  }
+  #main header nav.right ul li {
+    margin-right: 20px;
+  }
+  #main header nav.right ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+  }
+  #main header nav.right ul li a img {
+    filter: brightness(0) invert(1);
+  }
+  #main header nav.right ul li.icon {
+    width: 5%;
+    margin-right: 10px;
+  }
+  #main header nav.right ul li.icon img {
+    display: block;
+    width: 100%;
+  }
+  #main section.spotlight {
+    padding: 10px 120px;
+  }
+  #main section.spotlight section.wrapper {
+    display: flex;
+    margin-top: 100px;
+  }
+  #main section.spotlight section.wrapper div.left {
+  }
+  #main section.spotlight section.wrapper div.left h2 {
+    font-weight: bold;
+    color: rgb(0, 191, 216);
+    font-size: xxx-large;
+  }
+  #main section.spotlight section.wrapper div.left h3 {
+    font-weight: bold;
+    font-size: xxx-large;
+  }
+  #main section.spotlight section.wrapper div.left p {
+    color: gray;
+    width: 90%;
+    margin: 20px 0px;
+  }
+  #main section.spotlight section.wrapper div.left a.button {
+    background-color: rgb(0, 191, 216);
+    color: rgb(255, 255, 255);
+    padding: 10px 35px;
+    border-radius: 25px;
+    font-weight: 600;
+  }
+  #main section.spotlight section.wrapper div.right {
+    width: 91%;
+  }
+  #main section.spotlight section.wrapper div.right img {
+    display: block;
+    width: 100%;
+  }
+  #Customers {
+    padding: 100px 0px;
+  }
+  #Customers section.wrapper {
+    text-align: center;
+  }
+  #Customers section.wrapper p {
+    font-weight: 600;
+  }
+  #Customers section.wrapper ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  #Customers section.wrapper ul li {
+    margin-right: 30px;
+  }
+  #Customers section.wrapper ul li img {
+  }
+  #services {
+  }
+  #services section.wrapper {
+  }
+  #services section.wrapper h2 {
+    text-align: center;
+    font-weight: bold;
+  }
+  #services section.wrapper p {
+    text-align: center;
+    margin-top: 10px;
+    color: gray;
+    line-height: normal;
+  }
+  #services section.wrapper div.box {
+    margin: 50px 0px;
+  }
+  #services section.wrapper div.box ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #services section.wrapper div.box ul li {
+    width: 30%;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 50px 10px;
+  }
+  #services section.wrapper div.box ul li img.logo {
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 15px;
+  }
+  #services section.wrapper section.top {
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+  }
+  #services section.wrapper section.top div.left {
+  }
+  #services section.wrapper section.top div.left h2 {
+  }
+  #services section.wrapper section.top div.left h2 {
+    text-align: left;
+    width: 60%;
+    font-size: 38px;
+  }
+  #services section.wrapper section.top div.left p {
+    text-align: left;
+    width: 50%;
+  }
+  #services section.wrapper section.top div.left a.button {
+    background: rgb(0, 191, 216);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  #services section.wrapper section.top div.right {
+    width: 70%;
+  }
+  #services section.wrapper section.top div.right img {
+    display: block;
+    width: 100%;
+  }
+  #services section.wrapper section.bottom {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #services section.wrapper section.bottom div.left {
+    width: 50%;
+  }
+  #services section.wrapper section.bottom div.left img {
+    width: 100%;
+    display: block;
+  }
+  #services section.wrapper section.bottom div.right {
+    text-align: left;
+  }
+  #services section.wrapper section.bottom div.right h2 {
+    width: 54%;
+    text-align: left;
+  }
+  #services section.wrapper section.bottom div.right ul {
+    text-align: left;
+  }
+  #services section.wrapper section.bottom div.right ul li {
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  #services section.wrapper section.bottom div.right ul li div.img-container {
+    width: 10px;
+    align-items: center;
+    text-align: center;
+  }
+  #services section.wrapper section.bottom div.right ul li div.img-container img {
+    display: inline-block;
+    width: 100%;
+    margin-left: -10px;
+  }
+  #services section.wrapper section.bottom div.right ul li p {
+  }
+  #services section.wrapper section.bottom div.right a.button {
+    display: inline-block;
+    background-color: rgb(0, 191, 216);
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-weight: 600;
+  }
+  #price {
+    margin: 100px 0px;
+  }
+  #price section.wrapper {
+  }
+  #price section.wrapper div.heading {
+    text-align: center;
+  }
+  #price section.wrapper div.heading h3 {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  #price section.wrapper div.heading p {
+    margin-top: 10px;
+    color: gray;
+  }
+  #price section.wrapper div.heading p br {
+  }
+  #price section.wrapper div.box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #price section.wrapper div.box div.left-box {
+    border: 1px solid lightgray;
+    padding: 10px 50px;
+    border-radius: 15px;
+  }
+  #price section.wrapper div.box div.left-box div.title {
+    text-align: center;
+  }
+  #price section.wrapper div.box div.left-box div.title h2 {
+    font-weight: bold;
+  }
+  #price section.wrapper div.box div.left-box div.title p {
+    color: gray;
+  }
+  #price section.wrapper div.box div.left-box hr.line {
+    border-bottom: 1px solid gray;
+    margin-top: 30px;
+  }
+  #price section.wrapper div.box div.left-box div.content {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  #price section.wrapper div.box div.left-box div.content h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(0, 191, 216);
+    font-size: 35px;
+    font-weight: bold;
+  }
+  #price section.wrapper div.box div.left-box div.content small {
+    text-align: center;
+    display: block;
+  }
+  #price section.wrapper div.box div.left-box div.content hr.line {
+  }
+  #price section.wrapper div.box div.left-box div.content ul {
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+  }
+  #price section.wrapper div.box div.left-box div.content ul li {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+  }
+  #price
+    section.wrapper
+    div.box
+    div.left-box
+    div.content
+    ul
+    li
+    div.img-container {
+    width: 15px;
+    display: block;
+    text-align: center;
+    align-items: center;
+  }
+  #price
+    section.wrapper
+    div.box
+    div.left-box
+    div.content
+    ul
+    li
+    div.img-container
+    img {
+    display: block;
+    width: 100%;
+    margin-left: -5px;
+    text-align: center;
+  }
+  #price section.wrapper div.box div.left-box div.content ul li h6 {
+    text-align: center;
+    font-size: 15px;
+  }
+  #price section.wrapper div.box div.left-box div.content a.button {
+    display: inline-block;
+    background: rgb(0, 191, 216);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 20px;
+    width: 60%;
+    margin-top: 25px;
+    position: relative;
+    top: 30px;
+  }
+  #price section.wrapper div.box div.middle-box {
+    border: 1px solid lightgray;
+    padding: 10px 50px;
+    border-radius: 15px;
+  }
+  #price section.wrapper div.box div.middle-box div.title {
+    text-align: center;
+  }
+  #price section.wrapper div.box div.middle-box div.title h2 {
+    font-weight: bold;
+  }
+  #price section.wrapper div.box div.middle-box div.title p {
+    color: gray;
+  }
+  #price section.wrapper div.box div.middle-box hr.line {
+    border-bottom: 1px solid gray;
+    margin-top: 30px;
+  }
+  #price section.wrapper div.box div.middle-box div.content {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  #price section.wrapper div.box div.middle-box div.content h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(0, 191, 216);
+    font-size: 35px;
+    font-weight: bold;
+  }
+  #price section.wrapper div.box div.middle-box div.content small {
+    text-align: center;
+    display: block;
+  }
+  #price section.wrapper div.box div.middle-box div.content hr.line {
+  }
+  #price section.wrapper div.box div.middle-box div.content ul {
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+  }
+  #price section.wrapper div.box div.middle-box div.content ul li {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+  }
+  #price
+    section.wrapper
+    div.box
+    div.middle-box
+    div.content
+    ul
+    li
+    div.img-container {
+    width: 15px;
+    display: block;
+    text-align: center;
+    align-items: center;
+  }
+  #price
+    section.wrapper
+    div.box
+    div.middle-box
+    div.content
+    ul
+    li
+    div.img-container
+    img {
+    display: block;
+    width: 100%;
+    margin-left: -5px;
+    text-align: center;
+  }
+  #price section.wrapper div.box div.middle-box div.content ul li h6 {
+    text-align: center;
+    font-size: 15px;
+  }
+  #price section.wrapper div.box div.middle-box div.content a.button {
+    display: inline-block;
+    background: rgb(0, 191, 216);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 20px;
+    width: 60%;
+    margin-top: 25px;
+    position: relative;
+    top: 30px;
+  }
+  #price section.wrapper div.box div.right-box {
+    border: 1px solid g;
+    border: 1px solid lightgrey;
+    padding: 10px 50px;
+    border-radius: 15px;
+  }
+  #price section.wrapper div.box div.right-box div.title {
+    text-align: center;
+  }
+  #price section.wrapper div.box div.right-box div.title h2 {
+    font-weight: bold;
+  }
+  #price section.wrapper div.box div.right-box div.title p {
+    color: gray;
+  }
+  #price section.wrapper div.box div.right-box hr.line {
+    border-bottom: 1px solid gray;
+    margin-top: 30px;
+  }
+  #price section.wrapper div.box div.right-box div.content {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  #price section.wrapper div.box div.right-box div.content h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(0, 191, 216);
+    font-size: 35px;
+    font-weight: bold;
+  }
+  #price section.wrapper div.box div.right-box div.content small {
+    text-align: center;
+    display: block;
+  }
+  #price section.wrapper div.box div.right-box div.content hr.line {
+  }
+  #price section.wrapper div.box div.right-box div.content ul {
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+  }
+  #price section.wrapper div.box div.right-box div.content ul li {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+  }
+  #price
+    section.wrapper
+    div.box
+    div.right-box
+    div.content
+    ul
+    li
+    div.img-container {
+    width: 15px;
+    display: block;
+    text-align: center;
+    align-items: center;
+  }
+  #price
+    section.wrapper
+    div.box
+    div.right-box
+    div.content
+    ul
+    li
+    div.img-container
+    img {
+    display: block;
+    width: 100%;
+    margin-left: -5px;
+    text-align: center;
+  }
+  #price section.wrapper div.box div.right-box div.content ul li h6 {
+    text-align: center;
+    font-size: 15px;
+  }
+  #price section.wrapper div.box div.right-box div.content a.button {
+    display: inline-block;
+    background: rgb(0, 191, 216);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 20px;
+    width: 60%;
+    margin-top: 25px;
+    position: relative;
+    top: 30px;
+  }
+  #contact {
+    padding: 100px 0px;
+  }
+  #contact section.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #contact section.wrapper section.content-box {
+  }
+  #contact section.wrapper section.content-box h2 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  #contact section.wrapper section.content-box p {
+  }
+  #contact section.wrapper section.content-box ul {
+  }
+  #contact section.wrapper section.content-box ul li {
+    display: flex;
+    align-items: center;
+  }
+  #contact section.wrapper section.content-box ul li div.img-container {
+    width: 20px;
+  }
+  #contact section.wrapper section.content-box ul li div.img-container img {
+    display: block;
+    width: 100%;
+    margin-left: -5px;
+  }
+  #contact section.wrapper section.content-box p {
+    color: gray;
+    margin: 20px 0px;
+  }
+  #contact section.wrapper section.content-box ul li h6 {
+    font-size: 20px;
+    color: gray;
+  }
+  #contact section.wrapper section.content-box ul li h6 span {
+    font-weight: bold;
+  }
+  #contact section.wrapper section.contact-form {
+  }
+  #contact section.wrapper section.contact-form form {
+  }
+  #contact section.wrapper section.contact-form form input {
+    border: 1px solid gray;
+    padding: 15px 20px;
+    width: 100%;
+    margin: 10px 0px;
+  }
+  #contact section.wrapper section.contact-form form br {
+  }
+  #contact section.wrapper section.contact-form form select {
+    border: 1px solid gray;
+    padding: 15px 20px;
+    width: 100%;
+    margin: 10px 0px;
+  }
+  #contact section.wrapper section.contact-form div.check {
+    display: flex;
+    align-items: center;
+  }
+  #contact section.wrapper section.contact-form div.check input {
+  }
+  #contact section.wrapper section.contact-form div.check input.check {
+    margin-right: 10px;
+  }
+  #contact section.wrapper section.contact-form div.check p {
+    color: gray;
+  }
+  #contact section.wrapper section.contact-form div.check p span {
+    text-decoration: underline;
+  }
+  #contact section.wrapper section.contact-form a.button {
+    background: rgb(0, 191, 216);
+    color: rgb(255, 255, 255);
+    padding: 15px 200px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 20px;
+  }
+  #video-picture {
+  }
+  #video-picture section.wrapper {
+    padding: 100px 0px;
+    align-items: center;
+    text-align: center;
+  }
+  #video-picture section.wrapper h2 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+  }
+  #video-picture section.wrapper div.img-container {
+    width: 50%;
+    margin: 0px auto;
+    padding: 20px 0px;
+  }
+  #video-picture section.wrapper div.img-container img {
+    display: block;
+    width: 100%;
+  }
+  #video-picture section.wrapper div.img-container div.play {
+    width: 8%;
+    position: relative;
+  }
+  #video-picture section.wrapper div.img-container div.play img.play {
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 278px;
+    bottom: 140px;
+    background: rgb(0, 191, 216);
+    padding: 15px;
+    border-radius: 50%;
+  }
+  #video-picture section.wrapper p {
+    text-align: center;
+    color: gray;
+  }
+  #video-picture section.wrapper p span {
+    font-weight: bold;
+  }
+  section.about {
+  }
+  section.about section.wrapper {
+  }
+  section.about section.wrapper div.top {
+    text-align: center;
+    padding: 30px 0px;
+  }
+  section.about section.wrapper div.top h2 {
+    font-size: 35px;
+    font-weight: 800;
+  }
+  section.about section.wrapper div.top p {
+    padding-top: 15px;
+    color: gray;
+  }
+  section.about section.wrapper div.top p br {
+  }
+  section.about section.wrapper div.bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 100px;
+  }
+  section.about section.wrapper div.bottom div.item {
+  }
+  section.about section.wrapper div.bottom div.item div.team {
+  }
+  section.about section.wrapper div.bottom div.item div.team img {
+    border-radius: 50%;
+  }
+  section.about section.wrapper div.bottom div.item h4 {
+    text-align: center;
+    font-weight: 700;
+    margin: 10px 0px;
+  }
+  section.about section.wrapper div.bottom div.item small {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    color: gray;
+    font-weight: 500;
+  }
+  section.about section.wrapper div.bottom div.item div.icons {
+    display: flex;
+    justify-content: center;
+  }
+  section.about section.wrapper div.bottom div.item div.icons img {
+    width: 20%;
+    margin-right: 10px;
+  }
+  
+  #about-evolo {
+  }
+  
+  #about-evolo section.wrapper {
+  }
+  
+  #about-evolo section.wrapper div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #about-evolo section.wrapper div.container div.item {
+  }
+  
+  #about-evolo section.wrapper div.container div.item h2 {
+    font-weight: bold;
+  }
+  
+  #about-evolo section.wrapper div.container div.item p {
+    margin-top: 10px;
+    color: gray;
+    line-height: inherit;
+  }
+  
+  #about-evolo section.wrapper div.container div.item ul {
+  }
+  #about-evolo section.wrapper div.container div.item ul li {
+    color: #00bfd8;
+  }
+  
+  #about-evolo section.wrapper div.container div.item ul li p span {
+    color: #00bfd8;
+    text-decoration: underline;
+  }
+  #about-evolo section.wrapper div.container div.item div.icons {
+  }
+  #about-evolo section.wrapper div.container div.item div.icons img {
+    width: 50px;
+    padding-top: 10px;
+    margin-right: 10px;
+  }
+  
+  footer {
+    padding-top: 100px;
+  }
+  footer section.wrapper {
+  }
+  footer section.wrapper hr.line {
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+  }
+  footer section.wrapper small {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+    color: lightgrey;
+    font-weight: 400;
+  }
 
-#about-evolo {
-}
+  @media all and (max-width: 1280px){
+    #main header nav.right ul li a img {
+        display: none;
+    } 
+    #main header nav.right {
+        width: 53%;
+    }
+    #services section.wrapper section.bottom div.right {
+        margin-left: 20px;
+    }
+    #price section.wrapper div.box div.left-box div.content a.button {
+        padding: 10px 25px;
+    }
+    #price section.wrapper div.box div.middle-box div.content a.button {
+        padding: 10px 25px;
+    }
+    #price section.wrapper div.box div.right-box div.content a.button {
+        padding: 10px 25px;
+    }
+    #contact section.wrapper section.content-box p {
+        
+        width: 56%;
+        text-align: left;
+    }
+    #video-picture section.wrapper div.img-container div.play img.play {
+       
+        position: absolute;
+        left: 204px;
+        bottom: 100px;
+       
+        
+    }
+    #about-evolo section.wrapper div.container div.item p {
+      
+        font-size: smaller;
+    }
+    section.about section.wrapper div.bottom div.item div.team {
+        margin-right: 10px;
+    }
+    #contact section.wrapper section.content-box ul li {
+        display: flex;
+        text-align: center;
+        align-items: baseline;
+    }
 
-#about-evolo section.wrapper {
-}
 
-#about-evolo section.wrapper div.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-#about-evolo section.wrapper div.container div.item {
-}
-
-#about-evolo section.wrapper div.container div.item h2 {
-  font-weight: bold;
-}
-
-#about-evolo section.wrapper div.container div.item p {
-  margin-top: 10px;
-  color: gray;
-  line-height: inherit;
-}
-
-#about-evolo section.wrapper div.container div.item ul {
-}
-#about-evolo section.wrapper div.container div.item ul li {
-  color: #00bfd8;
-}
-
-#about-evolo section.wrapper div.container div.item ul li p span {
-  color: #00bfd8;
-  text-decoration: underline;
-}
-#about-evolo section.wrapper div.container div.item div.icons {
-}
-#about-evolo section.wrapper div.container div.item div.icons img {
-  width: 50px;
-  padding-top: 10px;
-  margin-right: 10px;
-}
-
-footer {
-  padding-top: 100px;
-}
-footer section.wrapper {
-}
-footer section.wrapper hr.line {
-  border-bottom: 1px solid lightgray;
-  margin-bottom: 20px;
-}
-footer section.wrapper small {
-  display: block;
-  text-align: center;
-  padding-bottom: 20px;
-  color: lightgrey;
-  font-weight: 400;
-}
+  }
+  
