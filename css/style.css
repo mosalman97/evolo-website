@@ -1097,6 +1097,19 @@ section.about section.wrapper div.bottom div.item {
   width: 41%;
   margin: 0 auto;
 }
+#contact section.wrapper section.content-box h2 {
+
+  display: none;
+
+}
+#video-picture section.wrapper div.img-container div.play {
+ 
+  display: none;
+}
+#about-evolo section.wrapper div.container div.item div.icons img {
+  width: 19px;
+}
+
 
  
 
