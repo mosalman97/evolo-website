@@ -229,6 +229,9 @@ br.clear {
   border-radius: 8px;
   padding: 50px 10px;
 }
+#services section.wrapper div.box ul li h3 {
+  font-weight: bold;
+}
 #services section.wrapper div.box ul li img.logo {
   display: block;
   width: 100%;
@@ -286,7 +289,7 @@ br.clear {
   text-align: left;
 }
 #services section.wrapper section.bottom div.right h2 {
-  width: 54%;
+  width: 60%;
   text-align: left;
 }
 #services section.wrapper section.bottom div.right ul {
@@ -294,8 +297,9 @@ br.clear {
 }
 #services section.wrapper section.bottom div.right ul li {
   display: flex;
-  align-items: center;
-  text-align: left;
+  /* align-items: center; */
+  /* text-align: left; */
+  margin-top: 5px;
 }
 #services section.wrapper section.bottom div.right ul li div.img-container {
   width: 10px;
@@ -308,6 +312,7 @@ br.clear {
   margin-left: -10px;
 }
 #services section.wrapper section.bottom div.right ul li p {
+  display: contents;
 }
 #services section.wrapper section.bottom div.right a.button {
   display: inline-block;
@@ -351,6 +356,7 @@ br.clear {
 }
 #price section.wrapper div.box div.left-box div.title h2 {
   font-weight: bold;
+  margin-top: 15px;
 }
 #price section.wrapper div.box div.left-box div.title p {
   color: gray;
@@ -440,6 +446,7 @@ br.clear {
 }
 #price section.wrapper div.box div.middle-box div.title h2 {
   font-weight: bold;
+  margin-top: 15px;
 }
 #price section.wrapper div.box div.middle-box div.title p {
   color: gray;
@@ -530,6 +537,7 @@ br.clear {
 }
 #price section.wrapper div.box div.right-box div.title h2 {
   font-weight: bold;
+  margin-top: 15px;
 }
 #price section.wrapper div.box div.right-box div.title p {
   color: gray;
@@ -628,6 +636,9 @@ br.clear {
 }
 #contact section.wrapper section.content-box ul li {
   display: flex;
+  /* align-items: center; */
+  margin-top: 5px;
+  justify-content: center;
   align-items: center;
 }
 #contact section.wrapper section.content-box ul li div.img-container {
@@ -827,7 +838,7 @@ section.about section.wrapper div.bottom div.item div.icons img {
 }
 
 footer {
-  padding-top: 100px;
+  padding-top: 65px;
 }
 footer section.wrapper {
 }
@@ -847,314 +858,359 @@ footer section.wrapper small {
   #main header nav.right ul li a img {
     display: none;
   }
-}
-
-@media all and (max-width: 980px) {
-  #main header nav.right ul li a img {
-    display: none;
-  }
   #main header nav.right {
-    width: 53%;
+    width: 50%;
+  }
+  #services section.wrapper section.top div.left h2 {
+    width: 70%;
+  }
+  #services section.wrapper section.top div.right {
+    width: 89%;
   }
   #services section.wrapper section.bottom div.right {
     margin-left: 20px;
   }
-  #price section.wrapper div.box div.left-box div.content a.button {
-    padding: 10px 25px;
+  #price section.wrapper div.box div.middle-box {
+    margin-right: 25px;
   }
-  #price section.wrapper div.box div.middle-box div.content a.button {
-    padding: 10px 25px;
+  #price section.wrapper div.box div.left-box {
+    margin-right: 25px;
   }
-  #price section.wrapper div.box div.right-box div.content a.button {
-    padding: 10px 25px;
+  #video-picture section.wrapper div.img-container {
+    width: 62%;
   }
-  #contact section.wrapper section.content-box p {
-    width: 56%;
-    text-align: left;
-  }
-  #video-picture section.wrapper div.img-container div.play img.play {
-    position: absolute;
-    left: 204px;
-    bottom: 100px;
-  }
-  #about-evolo section.wrapper div.container div.item p {
-    font-size: smaller;
-  }
-  section.about section.wrapper div.bottom div.item div.team {
-    margin-right: 10px;
-  }
-  #contact section.wrapper section.content-box ul li {
-    display: flex;
-    text-align: center;
-    align-items: baseline;
+  section.about section.wrapper div.bottom div.item {
+    margin-right: 15px;
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1080px) {
+  #services section.wrapper div.box ul li {
+    width: 300px;
+    height: 300px;
+    margin-right: 12px;
+  }
+  #services section.wrapper p {
+    font-size: smaller;
+  }
+  #services section.wrapper section.top div.left h2 {
+    width: 100%;
+  }
+  #services section.wrapper section.top div.left p {
+    text-align: left;
+    width: 70%;
+  }
+  #price section.wrapper div.box div.left-box div.content a.button {
+    padding: 10px 18px;
+  }
+  #price section.wrapper div.box div.middle-box div.content a.button {
+    padding: 10px 18px;
+  }
+  #price section.wrapper div.box div.right-box div.content a.button {
+    padding: 10px 18px;
+  }
+  #contact section.wrapper section.content-box p {
+    color: gray;
+    margin: 20px 0px;
+    font-size: 14px;
+  }
+
+  #video-picture section.wrapper div.img-container div.play img.play {
+    position: absolute;
+    left: 253px;
+    bottom: 126px;
+  }
+  #about-evolo section.wrapper div.container div.item p {
+    margin-top: 10px;
+    color: gray;
+    line-height: inherit;
+    font-size: 15px;
+  }
+}
+
+@media all and (max-width: 980px) {
+  #main {
+    background: url(../images/header-background.jpg) right 46% top 0% / 100%
+      no-repeat;
+    width: 742px;
+  }
   #main header nav.right {
     width: 54%;
   }
   #main header nav.right ul li a {
-    color: gray;
-    font-weight: 500;
+    font-size: 13px;
   }
-  #main {
-    background: url(../images/header-background.jpg) right 20% top 10% / 0%
-      no-repeat;
+  #main section.spotlight section.wrapper div.right {
+    width: 600px;
   }
-  #Customers section.wrapper ul li img {
-    width: 90%;
+  #main section.spotlight section.wrapper div.left h2 {
+    font-size: 34px;
+  }
+  #main section.spotlight section.wrapper div.left h3 {
+    font-size: 28px;
+  }
+  #main section.spotlight section.wrapper div.left p {
+    width: 100%;
+    font-size: 20px;
+  }
+  #main header div.left h1 {
+    width: 120px;
   }
   #Customers section.wrapper p {
-    font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
   }
-  #price section.wrapper div.box {
-    display: flex;
-    flex-wrap: wrap;
+  #Customers section.wrapper ul li img {
+    width: 90px;
   }
-  #price section.wrapper div.box div.right-box {
-    margin-top: 30px;
-  }
-  #contact section.wrapper section.contact-form form input {
-    width: 80%;
-  }
-  #contact section.wrapper section.contact-form form select {
-    width: 80%;
-  }
-  #contact section.wrapper section.contact-form form {
-    display: block;
-    text-align: center;
-  }
-  #contact section.wrapper section.content-box h2 {
-    font-size: 21px;
-    font-weight: 700;
-  }
-  #contact section.wrapper section.content-box p {
-    width: 100%;
-    text-align: center;
-  }
-  #contact section.wrapper section.content-box ul {
-    display: none;
-  }
-  #video-picture section.wrapper div.img-container {
-    width: 64%;
-  }
-  #about-evolo section.wrapper div.container div.item p {
-    font-size: x-small;
-  }
-  #about-evolo section.wrapper div.container {
+  #Customers section.wrapper ul {
     display: flex;
     align-items: center;
-    text-align: center;
+    margin-left: 75px;
   }
-  #services section.wrapper section.top div.left {
-    width: 100%;
+  #services section.wrapper div.box ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #services section.wrapper div.box ul li {
+    width: 300px;
+    height: 300px;
+    margin-right: 12px;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  #services section.wrapper section.top div.left h2 {
+    width: 90%;
   }
   #services section.wrapper section.bottom div.right h2 {
     width: 80%;
     text-align: left;
   }
+  #services section.wrapper section.bottom div.left {
+    width: 58%;
+  }
+  #services section.wrapper section.top div.right {
+    width: 100%;
+  }
+  #price section.wrapper div.box {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  #price section.wrapper div.box div.middle-box {
+    margin-right: 25px;
+    margin-top: 25px;
+  }
+  #price section.wrapper div.box div.right-box {
+    margin-top: 4%;
+    margin-right: 20px;
+  }
+  #contact section.wrapper section.contact-form {
+    width: 35%;
+  }
+  #contact section.wrapper section.contact-form a.button {
+    padding: 15px 80px;
+  }
+  #contact section.wrapper section.contact-form div.check input.check {
+    margin-right: 10px;
+    margin-bottom: 50px;
+  }
+  #video-picture {
+    margin-left: 11%;
+  }
+  #video-picture section.wrapper div.img-container div.play {
+    display: none;
+  }
+  #contact section.wrapper section.content-box p {
+    font-size: 13px;
+  }
+  section.about section.wrapper div.bottom {
+    width: 100%;
+    margin-left: 25px;
+  }
+  section.about section.wrapper div.top {
+    width: 100%;
+    margin-left: 3%;
+  }
+  #main header nav.right ul li a {
+    font-size: 10px;
+  }
+  #main header nav.right {
+    width: 53%;
+  }
+  #about-evolo section.wrapper div.container div.item div.icons img {
+    width: 40px;
+    padding-top: 10px;
+    margin-right: 10px;
+  }
+  #about-evolo section.wrapper div.container div.item {
+    margin-right: 30px;
+  }
+  #about-evolo section.wrapper div.container div.item h2 {
+    font-size: medium;
+  }
+  #about-evolo section.wrapper div.container div.item {
+    margin-right: 30px;
+    display: block;
+    text-align: center;
+  }
+  #about-evolo section.wrapper div.container div.item div.icons {
+    width: 100%;
+  }
+  #about-evolo section.wrapper div.container div.item div.icons img {
+    width: 35px;
+    padding-top: 10px;
+    margin-right: 10px;
+  }
 }
 
 @media all and (max-width: 640px) {
-  #main header nav.right {
-    width: 55%;
+  #Customers section.wrapper ul {
+    margin-left: 190px;
   }
-  #main header nav.right ul li:last-child {
-    margin-right: 0px;
-  }
-  #main header nav.right ul li a {
-    margin-left: -12px;
-  }
-  #main header nav.right ul li.icon {
-    display: none;
-  }
-  #main section.spotlight section.wrapper div.right {
-    /* display: block; */
-    /* width: 100%; */
-    display: none;
-  }
-  #main section.spotlight section.wrapper div.left h2 {
-    text-align: center;
-  }
-  #price section.wrapper div.box div.middle-box {
-    margin-top: 30px;
-  }
-  #contact section.wrapper section.contact-form form input {
-    width: 60%;
-  }
-  #contact section.wrapper section.contact-form form select {
-    width: 60%;
-  }
-  #contact section.wrapper section.contact-form a.button {
-    padding: 10px 150px;
-  }
-  #contact section.wrapper section.content-box h2 {
-    font-size: 20px;
-    font-weight: 700;
-  }
-  #contact section.wrapper section.content-box p {
-    width: 90%;
-    text-align: center;
-  }
-  #video-picture section.wrapper div.img-container {
-    width: 76%;
-  }
-  #video-picture section.wrapper p {
-    font-size: 15px;
-  }
-  #about-evolo section.wrapper div.container div.item div.icons img {
-    width: 25px;
-  }
-  #main section.spotlight section.wrapper div.left {
-    text-align: center;
-  }
+  #Customers section.wrapper ul li img {
+    width: 90px;
 }
-
-@media all and (max-width: 480px) {
-  #main header nav.right {
-    display: none;
-  }
-  #main header div.left {
-    /* margin-left: 100px; */
-    width: 30%;
-    margin: 0 auto;
-  }
-  #Customers section.wrapper ul li {
-    margin-right: 10px;
-  }
-  #services section.wrapper div.box ul {
-    display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
-  }
-  #services section.wrapper div.box ul li {
-    width: 100%;
-    margin-top: 10px;
-  }
-  #services section.wrapper div.box ul {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  #services section.wrapper section.top div.right {
-    width: 70%;
-    display: none;
-  }
-  #services section.wrapper section.top div.left h2 {
-    text-align: center;
-    width: 60%;
-    margin: 0 auto;
-  }
-  #services section.wrapper section.top div.left p {
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 10px;
-  }
-  #services section.wrapper section.top {
-    padding: 30px 0px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
-  #services section.wrapper section.bottom div.left {
-    display: none;
+#Customers section.wrapper p {
+  font-size: 30px;
+  width: 100%;
+  margin-left: 10%;
+}
+#services {
+  width: 100%;
+  margin-left: 10%;
+}
+#services section.wrapper p {
+  font-size: unset;
+}
+#services section.wrapper section.top div.right {
+  display: none;
+}
+#services section.wrapper section.bottom div.left {
+  display: none;
+}
+#services section.wrapper section.top {
+  margin-left: 15%;
+}
+#services section.wrapper section.bottom {
+  margin-left: 10%;
+}
+#price {
+  margin-left: 25%;
+}
+#contact section.wrapper section.content-box h2 {
+  font-size: 24px;
+  
+}
+#contact section.wrapper section.contact-form a.button {
+  padding: 15px 50px;
 }
 #contact section.wrapper section.content-box p {
- display: none;
+  font-size: 13px;
+  text-align: center;
 }
-#contact section.wrapper {
-  /* display: flex; */
-  /* justify-content: flex-end; */
+#contact section.wrapper section.contact-form div.check input.check {
+  margin-bottom: 76px;
+}
+#video-picture section.wrapper div.img-container {
+  width: 90%;
+}
+#video-picture {
+  margin-left: 11%;
+  width: 100%;
+}
+section.about section.wrapper div.top {
+  width: 100%;
+  margin-left: 15%;
+}
+section.about section.wrapper div.bottom {
+  width: 100%;
+  margin-left: 70px;
+}
+#about-evolo section.wrapper div.container div.item {
+ display: none;
+  
+}
+footer {
+  padding-top: 65px;
+  padding-left: 200px;
+}
+
+
+
+}
+@media all and (max-width: 480px){
+  #Customers section.wrapper ul {
+    margin-left: 300px;
+}
+#Customers section.wrapper p {
+  font-size: 30px;
+  width: 100%;
+  margin-left: 25%;
+}
+#services {
+  width: 100%;
+  margin-left: 35%;
+}
+#services section.wrapper section.top div.left {
+  text-align: left;
+}
+#services section.wrapper section.bottom div.right {
+  margin-left: 20px;
+  text-align: left;
+}
+#services section.wrapper section.bottom div.right h2 {
+  width: 100%;
+  text-align: left;
+}
+#price section.wrapper div.box div.left-box div.content a.button {
+
+  display: none;
+}
+#price section.wrapper div.box div.middle-box div.content a.button {
+
+  display: none;
+}
+#price section.wrapper div.box div.right-box div.content a.button {
+
+  display: none;
+}
+#contact section.wrapper section.content-box p {
+  display: none;
 }
 #contact section.wrapper section.content-box h2 {
   font-size: 25px;
-  font-weight: 700;
   text-align: center;
-  margin-top: 15px;
 }
-#contact section.wrapper section.contact-form a.button {
-  padding: 10px 121px;
-}
-#video-picture section.wrapper div.img-container {
-  width: 100%;
-}
-#video-picture section.wrapper p {
-  font-size: 20px;
-}
-section.about section.wrapper div.bottom div.item {
-  width: 20%;
-}
-#about-evolo section.wrapper div.container div.item {
-  width: 20%;
-}
-#main header div.left h1 {
-  width: 200px;
-}
-#main header div.left {
-  /* margin-left: 100px; */
-  width: 41%;
-  margin: 0 auto;
-}
-#contact section.wrapper section.content-box h2 {
-
-  display: none;
-
-}
-#video-picture section.wrapper div.img-container div.play {
- 
-  display: none;
-}
-#about-evolo section.wrapper div.container div.item div.icons img {
-  width: 19px;
-}
-
-
- 
 
 
 
 }
-
 @media all and (max-width: 360px){
-    
-  #main section.spotlight {
-    width: 100%;
-    margin: 0 auto;
+  #Customers section.wrapper ul {
+    margin-left: 330px;
 }
-#main header div.left h1 {
-  width: 200px;
+#Customers section.wrapper p {
+  font-size: 30px;
+  width: 100%;
+  margin-left: 50%;
 }
-#main header div.left {
-  /* margin-left: 100px; */
-  width: 41%;
-  margin: 0 auto;
+#contact {
+  padding: 100px 0px;
+  display: none;
 }
-#Customers section.wrapper ul li img {
+#video-picture {
+  margin-left: 50%;
   width: 100%;
 }
-#Customers section.wrapper ul li {
-  margin-right: 10px;
+section.about section.wrapper div.top {
+  width: 100%;
+  margin-left: 40%;
 }
-#Customers section.wrapper ul li img {
-  /* width: 100%; */
-  height: 20px;
-  width: 55px;
+section.about section.wrapper div.bottom {
+  width: 100%;
+  margin-left: 100px;
 }
-#Customers section.wrapper ul li {
-  margin-right: 11px;
-}
-#contact section.wrapper section.content-box h2{
-  display: none;
-}
-#video-picture section.wrapper div.img-container div.play {
- 
-  display: none;
-}
-#about-evolo section.wrapper div.container div.item {
-  width: 30%;
-}
-
-
 }
