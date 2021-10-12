@@ -1138,9 +1138,8 @@ footer {
   margin-left: 30px;
   padding: 15px 100px;
 }
-section.about section.wrapper div.bottom div.item h4:first-child {
- width: max-content;
-
+#about-evolo section.wrapper div.container div.item ul {
+  margin-left: 15px;
 }
 
 }
