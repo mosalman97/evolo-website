@@ -1104,8 +1104,43 @@ footer {
   width: 80%;
   margin: 0 auto;
 }
+#contact section.wrapper section.content-box h2 {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+#contact section.wrapper section.content-box p {
+  font-size: 18px;
+  text-align: center;
+}
+#contact section.wrapper section.content-box ul {
+  width: 90%;
+  /* display: none; */
+  display: none;
+}
+#contact section.wrapper section.contact-form form {
+  width: 50%;
+  margin: 0 auto;
+}
+#contact section.wrapper section.contact-form div.check {
+  display: flex;
+  /* align-items: center; */
+  width: 63%;
+  margin: 0 auto;
+}
+#contact section.wrapper section.contact-form div.check input.check {
+  margin-right: 10px;
+  margin-bottom: 25px;
 
+}
+#contact section.wrapper section.contact-form a.button {
+  border-radius: 20px;
+  margin-left: 30px;
+  padding: 15px 100px;
+}
+section.about section.wrapper div.bottom div.item h4:first-child {
+ width: max-content;
 
 }
 
-
+}
