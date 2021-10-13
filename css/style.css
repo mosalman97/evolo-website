@@ -180,6 +180,12 @@ br.clear {
   border-radius: 25px;
   font-weight: 600;
 }
+#main section.spotlight section.wrapper div.left a.button:hover{
+  background-color: #fff;
+  color: rgb(0, 191, 216);
+  border: 1px solid rgb(0, 191, 216);
+}
+
 #main section.spotlight section.wrapper div.right {
   width: 55%;
 }
@@ -279,8 +285,10 @@ br.clear {
   display: inline-block;
   margin-top: 20px;
 }
-#services section.wrapper section.top div.right {
-  width: 70%;
+#services section.wrapper section.top div.left a.button:hover{
+background-color: #fff;
+color: rgb(0, 191, 216);
+border: 1px solid rgb(0, 191, 216);
 }
 #services section.wrapper section.top div.right img {
   display: block;
@@ -334,6 +342,11 @@ br.clear {
   margin-top: 20px;
   border-radius: 20px;
   font-weight: 600;
+}
+#services section.wrapper section.bottom div.right a.button:hover{
+background-color: #fff;
+color: rgb(0, 191, 216);
+border: 1px solid rgb(0, 191, 216);
 }
 #price {
   margin: 100px 0px;
@@ -454,6 +467,11 @@ br.clear {
   position: relative;
   top: 30px;
 }
+#price section.wrapper div.box div.left-box div.content a.button:hover{
+  background-color: #fff;
+  color:rgb(0, 191, 216);
+  border: 1px solid rgb(0, 191, 216);
+}
 #price section.wrapper div.box div.middle-box {
   border: 1px solid lightgray;
   padding: 10px 50px;
@@ -549,6 +567,11 @@ br.clear {
   margin-top: 25px;
   position: relative;
   top: 30px;
+}
+#price section.wrapper div.box div.middle-box div.content a.button:hover{
+  background-color: #fff;
+  color:rgb(0, 191, 216);
+  border: 1px solid rgb(0, 191, 216);
 }
 #price section.wrapper div.box div.right-box {
   border: 1px solid lightgrey;
@@ -646,6 +669,11 @@ br.clear {
   position: relative;
   top: 30px;
 }
+#price section.wrapper div.box div.right-box div.content a.button:hover{
+  background-color: #fff;
+  color:rgb(0, 191, 216);
+  border: 1px solid rgb(0, 191, 216);
+}
 #contact {
   padding: 100px 0px;
 }
@@ -727,6 +755,11 @@ br.clear {
   display: inline-block;
   margin-top: 15px;
   border-radius: 20px;
+}
+#contact section.wrapper section.contact-form a.button:hover{
+  background-color: #fff;
+  color: rgb(0, 191, 216);
+  border: 1px solid rgb(0, 191, 216);
 }
 #video-picture {
 }
@@ -926,12 +959,16 @@ footer section.wrapper small {
   #price section.wrapper div.box div.left-box div.content a.button {
     padding: 10px 20px;
   }
+
   #price section.wrapper div.box div.middle-box div.content a.button {
     padding: 10px 20px;
   }
+  
+
   #price section.wrapper div.box div.right-box div.content a.button {
     padding: 10px 20px;
   }
+ 
   #contact section.wrapper section.content-box ul {
     width: 90%;
   }
